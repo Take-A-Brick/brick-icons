@@ -1,6 +1,6 @@
 {
   "name": "brick-icons",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Icons for Take A Brick",
   "main": "dist/index.js",
   "typings": "dist/icons.d.ts",
