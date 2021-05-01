@@ -1,27 +1,21 @@
 {
-  "name": "juuust-react-icon",
-  "version": "0.2.5",
-  "description": "Icon automation workflow with Figma",
+  "name": "brick-icons",
+  "version": "0.4.0",
+  "description": "Icons for Take A Brick",
   "main": "dist/index.js",
   "typings": "dist/icons.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/leadream/juuust-react-icon.git",
-  "author": "leadream",
+  "repository": "https://github.com/Take-A-Brick/brick-icons",
+  "author": "Take A Brick",
   "keywords": [
     "react",
     "icons",
     "svg",
-    "inline",
     "figma",
-    "juuust",
     "design"
   ],
-  "bugs": {
-    "url": "https://github.com/leadream/juuust-react-icon/issues"
-  },
-  "homepage": "https://github.com/leadream/juuust-react-icon#readme",
   "scripts": {
     "fetch": "node bin/fetchSVG.js",
     "generate": "sudo rm -rf src/icons && node bin/build.js",
